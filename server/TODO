@@ -1,0 +1,28 @@
+
+7/12/14
+The first set of TODO's:
+- Create the initial README (DONE)
+- Create a local repository (DONE)
+- Decide on a language to start (DONE)
+- Create simple python script that:
+  -- asks for player names (DONE)
+  -- generates galaxy (2D, each planet has coordinates and ID) (DONE)
+  -- allows player to query and list planet coordinates
+
+7/13/14
+Revisited core language decision because Python is not going well.
+Rewrote all base classes in C++
+
+7/16/14
+Created simple player loop
+
+Open items:
+- Populate planet list (done)
+- Create player view of planet list (all visible planets, coords, ownership,
+    any ships, HQ tag)
+- Create display for player's view of planet list (done)
+- Create research list and attributes
+-- Technology: Improved "vision", better thrust, new materials?, weapons, etc.
+-- Ships: Scouts, Attack ships, Defenders, Colonizers, Command
+- Add initial timer or clock at a minimum that displays the current time
+

@@ -1,0 +1,40 @@
+This is the summary of theGame.  There are multiple planets in a finite space.
+Multiple (2 to start) players fight to knock out the other player(s).  The game
+ends when only one player remains.  Each player has a base planet that houses
+their headquarters.  The players can fight local populations to take over and
+colonize new planets.  Populations on planets create ships of several types to
+attack and colonize.  Initial ship types include a colony carrier, a scout, a
+swift attack (think jet fighter), a slower attack (think B2), and a ship that
+can act as a defensive ship for the planet if they win.
+
+Ships need to be created by the local population.  The larger the population,
+the faster/more ships that can be created.  Each planet may have an individual
+growth rate.  Planets can research new technology (new ships types, faster
+propulsion, more attack strength, improved agriculture to increase population
+growth, etc.).  
+
+All decisions are made by the headquarters.  The HQ is initially housed on the 
+base planet but it may be possible to create a "HQ ship" that can move the HQ
+to another planet.  Players may want to move the HQ in order to remain unseen
+or to be closer to the action.
+
+All communications take place at the speed of light. This is the central 
+feature of the game.  Because all decisions need to be made by the HQ, info
+and events must be received by the HQ before commands are issued to the other
+colonies and ships.
+
+Ships move at less than the speed of light.  They accelerate with constant
+force and that force is both specific to the type of ship and may change over
+time with new research.
+
+Visibility is limited.  All planets are visible but ownership is not.  
+Population size, numbers and types of ships and whether a planet is the HQ are
+not known.  This may be a type of research to develop.  As technology improves,
+visibility of these things increases spatially but only from a local colony or
+scout ship and views are again limited by the speed of light.  
+
+Each player (HQ) will have their own view.  Communications between colonies are encrypted and may not be viewed by the other team.  It may be possible to send
+out unencrypted messages but they still travel at the speed of light.  Because
+of the time lag, views will always be out of date, especially colonies and 
+events that are far from HQ.  
+ 

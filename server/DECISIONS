@@ -1,0 +1,75 @@
+#This file tracks decisions that were made or need to be made:
+
+- Should I host on github or stay local?
+Pro of github:
+- easy interface
+- visibility by potential employers
+- sharing with Bagley, Pat or others
+Cons of github:
+- giving it away
+- mistakes are visible by potential employers
+
+7/12/14
+Decision made to start in local repository and limit visiblity.  I don't want
+fear of embarrasment to keep me from writing whatever I want and I can
+always put it in a public (or private networked for cooperative programming)
+later
+
+What language to choose:
+C++
+- Know it the best
+- Fast progress to start
+- Fast
+- May be difficult to write more complicated pieces in
+
+Python
+- Good project to learn the language
+- May be frustrated by slow pace initially
+- OO syntax seems painful
+- Not sure how to lay out larger python projects
+
+Lua
+- Don't know much about it
+- Easy: good long term progress
+- Unsure of OO design 
+
+Java
+- Fairly easy
+- Dying language?
+
+D/Rust/Go/something else
+- good project to learn something new
+- may be learning something that won't last
+- may not have ongoing support, dead end project
+
+Goals of writing the game:
+- To learn/improve language skills
+- To keep coding sharp by working on fun project
+- To show a potential employer
+- To work with other people (just for inspiration)
+
+7/13/14
+Revisiting language decision based on the following research and issues found:
+- python class hierarchies are difficult to manage
+- concurrency is a pain
+- python is not a common game language
+
+Revising this decision, considering that the primary goal is to still learn
+but perhaps learning new coding techniques rather than a new language.  The 
+other language listed do not seem to be popular.  The most popular gaming and
+overall languages still appear to be:
+C/C++
+Java
+Objective-C
+
+and everything else is far behind.  Java is out.  It's future is uncertain.
+Objective-C is interesting especially considering iPhone apps but with swift on
+the horizon, it may be obsoleted soon.  Swift is still in xcode6 beta and only 
+runs on mac iOS and OSX.  The beta itself is over 2GB and download estimates 
+start at 2hours.  So ... at the possible expense of not learning a new language,
+I'm going back to C++
+
+7/12/14
+Decision made to start in python as primary goal is to learn new 
+language skills.  If progress is slow, will re-evaluate over time.
+

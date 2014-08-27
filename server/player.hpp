@@ -12,8 +12,6 @@ class player
   public:
     player(uint32_t _id) : ID(_id), sight_range(50.0) {}
     uint32_t getID(void) const;
-    void controlLoop(void);
-    void researchLoop(void);
     void researchShips(void);
     void displayPlanets(void) const;
     void displayResearch(void) const;

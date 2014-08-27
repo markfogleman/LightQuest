@@ -43,32 +43,6 @@ std::string player::getName(void) const
   return name;
 }
 
-void player::controlLoop(void)
-{
-  std::string command_input;
-  while (true) {
-    std::cout << "Give a command: ";
-    std::cin >> command_input;
-    if ((command_input == "help") || (command_input == "h")) {
-      std::cout << "Options include:" << std::endl;
-      std::cout << "planets(p)" << std::endl;
-      std::cout << "ships(s)" << std::endl;
-      std::cout << "research(r)" << std::endl;
-      std::cout << "quit(q)" << std::endl;
-    } else if ((command_input == "planets") || (command_input == "p")) {
-      displayPlanets();
-    } else if ((command_input == "ships") || (command_input == "s")) {
-      std::cout << "Not implemented yet" << std::endl;
-    } else if ((command_input == "research") || (command_input == "r")) {
-      researchLoop();
-    } else if ((command_input == "quit") || (command_input == "q")) {
-      break;
-    } else {
-      std::cout << "Command unrecognized, try again." << std::endl;
-    }
-  }
-}
-
 void player::researchShips(void)
 {
   std::string command_input;
@@ -82,40 +56,6 @@ void player::researchShips(void)
       std::cout << "Research ship type (1-n)" << std::endl;
       std::cout << "Return to main research lab(c)" << std::endl;
     } else if (command_input == "c") {
-      break;
-    } else {
-      std::cout << "Command not recognized." << std::endl;
-    }
-  }
-}
-
-void player::researchLoop(void)
-{
-  std::string command_input;
-  std::cout << "Welcome to the labratory." << std::endl;
-  while (true) {
-    std::cout << "Give a command: ";
-    std::cin >> command_input;
-    if ((command_input == "help") || (command_input == "h")) {
-      std::cout << "Options include:" << std::endl;
-      std::cout << "display status(s)" << std::endl;
-      std::cout << "research improved vision(v)" << std::endl;
-      std::cout << "research attack weapons(a)" << std::endl;
-      std::cout << "research defensive weapons(d)" << std::endl;
-      std::cout << "research ships(ships)" << std::endl;
-      std::cout << "return to command center(c)" << std::endl;
-    } else if (command_input == "s") {
-      std::cout << "Display current research status." << std::endl;
-    } else if (command_input == "v") {
-      std::cout << "Researching improved vision." << std::endl;
-    } else if (command_input == "a") {
-      std::cout << "Researching improved attack weapons." << std::endl;
-    } else if (command_input == "d") {
-      std::cout << "Researching improved defensive weapons." << std::endl;
-    } else if (command_input == "ships") {
-      researchShips();
-    } else if (command_input == "c") {
-      std::cout << "Returning to command center." << std::endl;
       break;
     } else {
       std::cout << "Command not recognized." << std::endl;

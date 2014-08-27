@@ -78,8 +78,6 @@ int main(int argc, char** argv) {
 
   std::cout << "Test 2" << std::endl;
   // TODO: Need to put these onto a different process eventually
-  theGame->getPlayer(1)->controlLoop();
-
 
   std::cout << "Thanks for playing!" << std::endl;
 

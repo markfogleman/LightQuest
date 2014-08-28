@@ -2,16 +2,17 @@
 #include "game.hpp"
 #include "player.hpp"
 
-game::game(void)
+game::game(void) : player1(1), player2(2)
 {
-  for (uint32_t i = 1; i <= 2; ++i) {
-    player_list.push_back(player(i));
-  }
 }
 
 player* game::getPlayer(uint32_t ID)
 {
-  return &player_list[ID];
+  player* output = &player1;
+  if (ID == 2) {
+    output = &player2;
+  }
+  return output;
 }
 
 galaxy* game::getGalaxy(void)

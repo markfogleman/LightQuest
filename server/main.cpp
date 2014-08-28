@@ -12,23 +12,17 @@ void init_Galaxy(game* theGame)
 
 }
 
-void init_Players(player* thePlayer)
-{
-  std::string name;
-  std::cout << "What is your name?: ";
-  std::cin >> name;
-  thePlayer->assignName(name);
-  std::cout << "Let's play, " << thePlayer->getName() << "!" << std::endl;
-}
-
 // This is the initialization for the game instance
 game* init_Game(void)
 {
   std::cout << "Welcome to LightQuest!!!" << std::endl;
   game* theGame = new game; 
-  init_Players(theGame->getPlayer(1));
-  init_Players(theGame->getPlayer(2));
+  player* player1 = theGame->getPlayer(1);
+  player* player2 = theGame->getPlayer(2);
 
+  player1->assignName("Mark");
+  player2->assignName("Sadaf");
+  
   return theGame;
 
 }
@@ -68,16 +62,11 @@ int main(int argc, char** argv) {
   game* theGame = init_Game();
 
   init_Galaxy(theGame);
-  
 
   theGame->getPlayer(1)->updateGalaxy(theGame->getGalaxy());
   theGame->getPlayer(2)->updateGalaxy(theGame->getGalaxy());
 
-  std::cout << "Test 1" << std::endl;
   initHQPlanets(theGame);
-
-  std::cout << "Test 2" << std::endl;
-  // TODO: Need to put these onto a different process eventually
 
   std::cout << "Thanks for playing!" << std::endl;
 

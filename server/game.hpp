@@ -17,7 +17,8 @@ class game {
 
   private:
     galaxy the_galaxy;
-    std::vector<player> player_list;
+    player player1;
+    player player2;
 
 };
 
